@@ -9,12 +9,12 @@ export const Header: FC = () => {
 
   return (
     <>
-      <header className="bg-gray-600 text-white px-4 py-3 flex justify-between items-center">
+      <header className="bg-violet-900 text-white px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-3">
 
           <button
             aria-label="Open sidebar"
-            className="p-2 rounded hover:bg-red-500 transition"
+            className="p-2 rounded hover:bg-violet-500 transition"
             onClick={() => setSidebarOpen(true)}
           >
             <Menu className="w-6 h-6 text-white" />

@@ -14,16 +14,16 @@ interface Student {
 const students: Student[] = [
   { name: "Aarav Sharma", course: "B.Tech", branch: "CSE", year: "2021–2025", college: "JK Institute of Technology", email: "aarav.sharma@example.com" },
   { name: "Ananya Verma", course: "B.Sc", branch: "Physics", year: "2020–2023", college: "Bundelkhand University", email: "ananya.verma@example.com" },
-  { name: "Ishaan Singh", course: "BBA", branch: "Marketing", year: "2022–2025", college: "Delhi Business School", email: "ishaan.singh@example.com" },
-  { name: "Diya Patel", course: "BCA", branch: "Information Technology", year: "2021–2024", college: "JSS Noida", email: "diya.patel@example.com" },
-  { name: "Vivaan Joshi", course: "B.Com", branch: "Finance", year: "2020–2023", college: "Hari Kishan College", email: "vivaan.joshi@example.com" },
-  { name: "Myra Nair", course: "BA", branch: "English Literature", year: "2022–2025", college: "MNO Arts College", email: "myra.nair@example.com" },
+  { name: "Ishaan Singh", course: "B.Tech", branch: "AI", year: "2022–2025", college: "Delhi Technological University", email: "ishaan.singh@example.com" },
+  { name: "Diya Patel", course: "B.Tech", branch: "Information Technology", year: "2021–2024", college: "JSS Noida", email: "diya.patel@example.com" },
+  { name: "Vivaan Joshi", course: "M.Tech", branch: "Software Engineering", year: "2020–2023", college: "Hari Kishan College", email: "vivaan.joshi@example.com" },
+  { name: "Myra Nair", course: "B.Sc", branch: "Mathematics", year: "2022–2025", college: "MNO Arts College", email: "myra.nair@example.com" },
   { name: "Kabir Rao", course: "B.Sc", branch: "Mathematics", year: "2021–2024", college: "MNIT Allahabad", email: "kabir.rao@example.com" },
   { name: "Aisha Mehta", course: "B.Tech", branch: "ECE", year: "2020–2024", college: "IIT Kanpur", email: "aisha.mehta@example.com" },
-  { name: "Aryan Khanna", course: "BCA", branch: "Software Engineering", year: "2022–2025", college: "VWX College", email: "aryan.khanna@example.com" },
-  { name: "Riya Kapoor", course: "B.Sc", branch: "Chemistry", year: "2021–2024", college: "YZA College", email: "riya.kapoor@example.com" },
-  { name: "Krish Jain", course: "B.Com", branch: "Accounting", year: "2020–2023", college: "BCD College", email: "krish.jain@example.com" },
-  { name: "Tara Das", course: "BA", branch: "History", year: "2022–2025", college: "EFG College", email: "tara.das@example.com" },
+  { name: "Aryan Khanna", course: "M.Tech", branch: "Software Engineering", year: "2022–2025", college: "VWX College", email: "aryan.khanna@example.com" },
+  { name: "Riya Kapoor", course: "B.Tech", branch: "Cloud Computing", year: "2021–2024", college: "YZA College", email: "riya.kapoor@example.com" },
+  { name: "Krish Jain", course: "B.Tech", branch: "Data Science", year: "2020–2023", college: "BCD College", email: "krish.jain@example.com" },
+  { name: "Tara Das", course: "B.Tech", branch: "CSE", year: "2022–2025", college: "EFG College", email: "tara.das@example.com" },
 ];
 
 export const StudentListCard: FC = () => {

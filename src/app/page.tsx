@@ -19,7 +19,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<string>("Availability");
 
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-400 via-purple-400 to-pink-50">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br  bg-violet-200 ">
       <Header />
 
       <div className="flex items-center space-x-2 p-4">
@@ -31,18 +31,12 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row gap-6 p-4">
 
         <div className="flex flex-col gap-4 flex-1">
-          <div className="bg-white rounded-2xl shadow-lg p-4 hover:shadow-xl transition">
             <TeacherDetailCard />
-          </div>
-          <div className="bg-white rounded-2xl shadow-lg p-4 hover:shadow-xl transition">
             <PrivateQualifications />
-          </div>
         </div>
 
         <div className="flex-1">
-          <div className="bg-white rounded-2xl shadow-lg p-4 hover:shadow-xl transition">
             <ContactCard />
-          </div>
         </div>
       </div>
 
