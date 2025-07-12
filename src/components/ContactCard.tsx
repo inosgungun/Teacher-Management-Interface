@@ -15,8 +15,7 @@ interface ContactItemCardProps {
 }
 
 const ContactItemCard: FC<ContactItemCardProps> = ({ title, items, onAdd }) => (
-  <div className="bg-white shadow-md rounded-lg p-4 w-full max-w-md">
-    {/* Header */}
+  <div className="bg-white rounded-2xl shadow-lg p-4 hover:shadow-xl transition">
     <div className="flex justify-between items-center border-b pb-2 mb-4">
       <h2 className="text-lg font-semibold">{title}</h2>
       <button
@@ -28,7 +27,6 @@ const ContactItemCard: FC<ContactItemCardProps> = ({ title, items, onAdd }) => (
       </button>
     </div>
 
-    {/* List of items */}
     <div className="space-y-1 text-black">
       {items.map((item, index) => (
         <div key={index} className="justify-between flex items-center">

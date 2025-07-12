@@ -18,7 +18,7 @@ export const TeacherDetailCard: FC = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-4 w-full max-w-md">
+    <div className="bg-white rounded-2xl shadow-lg p-4 hover:shadow-xl transition">
       {/* Header */}
       <div className="flex justify-between items-center border-b pb-2 mb-4">
         <h2 className="text-lg font-semibold">Details</h2>

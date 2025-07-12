@@ -12,10 +12,10 @@ export const PrivateQualifications: FC = () => {
   const [isEditing, setIsEditing] = useState(false);
 
   const [qualifications, setQualifications] = useState<Qualification[]>([
-    { name: "Vocal Contemporary", rate: 28 },
-    { name: "Vocal Core", rate: 40 },
-    { name: "Vocal Hybrid", rate: 30 },
-    { name: "Vocal Plus", rate: 50 },
+    { name: "Advanced Algorithms: Dynamic Programming", rate: 60 },
+    { name: "System Design Principles", rate: 40 },
+    { name: "Cloud Computing with AWS", rate: 30 },
+    { name: "Machine Learning Fundamentals", rate: 50 },
   ]);
 
   const handleRateChange = (index: number, newRate: number) => {
@@ -27,10 +27,10 @@ export const PrivateQualifications: FC = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-4 w-full max-w-md">
+    <div className="bg-white rounded-2xl shadow-lg p-4 hover:shadow-xl transition">
       {/* Header */}
       <div className="flex justify-between items-center border-b pb-2 mb-4">
-        <h2 className="text-lg font-semibold">Private Qualifications</h2>
+        <h2 className="text-lg font-semibold">Courses</h2>
         <div className="flex items-center space-x-2">
           <button
             onClick={() => setIsEditing(!isEditing)}
